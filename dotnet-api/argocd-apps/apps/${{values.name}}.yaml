@@ -15,7 +15,7 @@ spec:
     server: 'https://kubernetes.default.svc'
   project: default
   source:
-    repoURL: git@github.com:${{__GITHUB_ORG__}}/argocd-apps.git
+    repoURL: git@github.com:qwiklabs-gcp-04-93c32f320821/argocd-apps.git
     targetRevision: main
     path: configuration/${{values.name}}
   syncPolicy:
